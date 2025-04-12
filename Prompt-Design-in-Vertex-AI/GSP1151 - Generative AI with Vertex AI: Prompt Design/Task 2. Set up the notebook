@@ -1,0 +1,33 @@
+Here’s the step-by-step guide for **Task 2: Set up the notebook**:
+
+### Task 2: Set up the notebook
+
+1. **Open the Notebook File:**
+   - In the **JupyterLab** interface, locate the notebook file you want to open. This could be in the file browser on the left.
+   - Click on the file to open it in the editor.
+
+2. **Select the Kernel:**
+   - A dialog will appear asking you to select a kernel. 
+   - From the list of available kernels, choose **Python 3** to set up the correct Python environment for the notebook.
+
+3. **Run the Getting Started and Import Libraries Sections:**
+   - Scroll to the **Getting Started** section of the notebook and run the cells by selecting the cell and clicking the **Run** button at the top or pressing `Shift + Enter`.
+   - Do the same for the **Import libraries** section to ensure all necessary libraries are loaded for the notebook to function correctly.
+
+4. **Set Project ID and Location:**
+   - When the notebook asks for **Project ID**, enter your Google Cloud **Project ID**.
+   - For **Location**, choose the appropriate **Region** based on where your resources are located or where you plan to deploy them.
+
+   **Note:** If there are any notebook cells labeled **Colab only**, you can skip them, as they are meant for Google Colab and may not work in JupyterLab.
+
+5. **Handle 429 Rate-Limit Errors:**
+   - If you encounter a **429 response** (Rate Limit error) while executing a cell, this means you've made too many requests in a short period.
+   - Simply wait for **1 minute** before trying to execute the cell again.
+
+6. **Verify Your Progress:**
+   - After completing the steps, if the notebook has a **Check my progress** button, click it to verify that you’ve successfully completed the objective.
+
+7. **Install Required Packages and Import Libraries:**
+   - If the notebook requires you to install additional packages, run the respective cells to install those dependencies.
+   - Similarly, ensure that all necessary libraries are imported correctly to avoid issues during the execution of later cells.
+
