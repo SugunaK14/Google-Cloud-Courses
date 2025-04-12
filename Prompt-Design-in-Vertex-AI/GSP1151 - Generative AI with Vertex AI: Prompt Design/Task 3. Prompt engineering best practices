@@ -1,0 +1,66 @@
+Here’s a step-by-step guide for **Task 3: Prompt engineering best practices**:
+
+---
+
+### Task 3: Prompt Engineering Best Practices
+
+**Objective:** Learn how to design effective prompts to get accurate and meaningful responses from Large Language Models (LLMs) by following structured guidelines.
+
+---
+
+#### ✅ Steps to Follow:
+
+1. **Open the Prompt Engineering Notebook:**
+   - Navigate to the notebook that includes the prompt engineering best practices.
+   - Open the notebook inside your Vertex AI Workbench JupyterLab interface.
+
+2. **Understand the Goal:**
+   - Prompt engineering focuses on crafting prompts in a way that improves the clarity, relevance, and safety of the model’s output.
+   - The key idea is to use **“unfancy” prompts** — simple, direct, and noise-free inputs to avoid ambiguity and misinterpretation.
+
+---
+
+#### 🔹 Section 1: Be concise
+
+- Read and run the cells under the **“Be concise”** section.
+- The idea here is to keep prompts short and straightforward.
+- Click **Check my progress** to verify this section is complete.
+
+---
+
+#### 🔹 Section 2: Be specific and well-defined
+
+- Proceed to the **“Be specific, and well-defined”** section of the notebook.
+- Run all the cells that demonstrate how clarity and specific instructions can lead to better results.
+- Click **Check my progress** to verify completion.
+
+---
+
+#### 🔹 Section 3: Ask one task at a time
+
+- Navigate to the **“Ask one task at a time”** section.
+- Execute the cells that show how combining tasks can confuse the model, and why focusing on one task per prompt improves output.
+- Click **Check my progress** to confirm the task.
+
+---
+
+#### 🔹 Section 4: Watch out for hallucinations
+
+- Run the cells under the **“Watch out for hallucinations”** section.
+- Understand how LLMs can sometimes generate plausible-sounding but incorrect or made-up content.
+- This section shows how to reduce hallucinations by structuring prompts thoughtfully.
+- Click **Check my progress** to validate completion.
+
+---
+
+✅ **Key Takeaways:**
+- ✍️ Use **simple and direct** language.
+- 🎯 Be **clear and precise** about what you want.
+- 🧩 Break down complex requests into **single tasks**.
+- 🔍 Provide **examples** to guide the model.
+- 🧠 Avoid ambiguous inputs to **reduce hallucinations**.
+- 🔐 Reframe generative tasks into classification when possible to **increase safety**.
+
+---
+
+This task helps you learn real-world prompt engineering techniques that enhance the quality and reliability of outputs from LLMs.
