@@ -1,0 +1,68 @@
+Here’s a detailed step-by-step guide for **Task 5: Improve Response Quality by Including Examples**:
+
+---
+
+### Task 5: Improve Response Quality by Including Examples
+
+**Objective:** Enhance the accuracy and relevance of LLM responses by providing carefully selected examples within your prompt (also known as *few-shot prompting*).
+
+---
+
+#### ✅ Steps to Follow:
+
+1. **Open the Notebook:**
+   - In Vertex AI Workbench (JupyterLab), open the notebook section titled **“Improve response quality by including examples.”**
+
+---
+
+#### 🔹 Understand Few-Shot Prompting:
+
+- Few-shot prompting involves giving the model 1–5 **sample input-output pairs** in the prompt to help it learn how to respond.
+- These examples act as *in-context training data*, guiding the model's response format, tone, and accuracy.
+
+---
+
+#### 🔹 Run the Section: Improve response quality by including examples
+
+- Go through the cells in the **“Improve response quality by including examples”** section.
+- Run each cell to see how:
+  - The quality of model outputs improves with relevant examples.
+  - Including more than 5 examples may lead to *overfitting* or degraded performance.
+- Observe how *example distribution* affects the performance:
+  - For classification, ensure a **balanced number of examples** across all categories.
+  - For general tasks, make sure examples **closely resemble real use cases**.
+
+---
+
+#### 🛠 Example Prompt Format:
+
+```text
+Input: What's the weather like in Paris?
+Output: The weather in Paris is mostly sunny with a high of 21°C.
+
+Input: What's the weather like in Tokyo?
+Output: It's currently raining in Tokyo, with temperatures around 18°C.
+
+Input: What's the weather like in New York?
+Output:
+```
+
+- The model learns the format and style of the response from the examples.
+- This technique reduces irrelevant responses and improves contextual accuracy.
+
+---
+
+✅ **Click “Check my progress”** to verify the completion of this objective.
+
+---
+
+#### 🧠 Key Takeaways:
+
+- 📌 Use **1–5 examples** to demonstrate how the model should respond.
+- 🎯 Ensure examples are **high-quality and relevant** to the use case.
+- ⚖️ Maintain **balanced distribution** of examples to avoid bias.
+- 🚫 Avoid too many examples, which may cause overfitting or confusion.
+
+---
+
+This task shows how to implement *few-shot learning* using prompts, improving model reliability in real-world applications like support bots, data extractors, or recommendation engines.
