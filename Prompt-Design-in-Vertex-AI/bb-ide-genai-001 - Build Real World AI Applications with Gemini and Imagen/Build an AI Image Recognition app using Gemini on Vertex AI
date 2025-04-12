@@ -1,0 +1,103 @@
+Here’s a **step-by-step guide** to help you **successfully complete the "Build an AI Image Recognition app using Gemini on Vertex AI" self-paced lab** using the `bb-ide-genai-001` environment on Google Cloud:
+---
+
+### ✅ **Step 1: Open a New File in Code Editor**
+In the Code Editor pane (left side):
+- Click **File > New File**
+- Name it `genai.py` and click **Save**
+
+---
+
+### ✅ **Step 2: Paste the Provided Code**
+
+Paste this code inside `genai.py`:
+
+```python
+from google import genai
+from google.genai.types import HttpOptions, Part
+
+client = genai.Client(http_options=HttpOptions(api_version="v1"))
+response = client.models.generate_content(
+    model="gemini-2.0-flash-001",
+    contents=[
+        "What is shown in this image?",
+        Part.from_uri(
+            file_uri="gs://cloud-samples-data/generative-ai/image/scones.jpg",
+            mime_type="image/jpeg",
+        ),
+    ],
+)
+print(response.text)
+```
+
+✅ Save the file.
+
+---
+
+### ✅ **Step 3: Set Environment Variables in Terminal**
+
+In the terminal (bottom of the IDE), replace `project-id` and `REGION` with values given in your lab (or auto-set), then run:
+
+```bash
+export GOOGLE_CLOUD_PROJECT="project-id"
+export GOOGLE_CLOUD_LOCATION="REGION"
+export GOOGLE_GENAI_USE_VERTEXAI=True
+```
+
+You can also check the project ID by running:
+```bash
+gcloud config get-value project
+```
+
+---
+
+### ✅ **Step 4: Run the Python File**
+
+In the terminal, execute the script:
+
+```bash
+/usr/bin/python3 /genai.py
+```
+
+You should see a description of the image (e.g., “A plate with scones” or similar).
+
+---
+
+### 🛠 **Troubleshooting:**
+- If you get a `500 Internal Error`, **rerun** the same command.
+- If `genai` is not recognized, try running:
+
+```bash
+pip install google-generativeai
+```
+
+But usually, the lab has preinstalled dependencies.
+
+---
+
+### 🧪 **Explore Further (Optional for Fun or Practice):**
+
+Change the image or prompt to explore more:
+
+**Example**:
+
+```python
+response = client.models.generate_content(
+    model="gemini-2.0-flash-001",
+    contents=[
+        "Describe the colors and objects in this image.",
+        Part.from_uri(
+            file_uri="gs://cloud-samples-data/vision/image_classification/animals.jpg",
+            mime_type="image/jpeg",
+        ),
+    ],
+)
+```
+
+---
+
+### ✅ **Final Step: Click ‘Check my progress’**
+
+After running the script and getting the output, go to the instructions pane and **click the “Check my progress” button** to validate.
+
+---
