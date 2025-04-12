@@ -1,0 +1,26 @@
+Here’s the step-by-step guide for **Task 1: Open the notebook in Vertex AI Workbench**:
+
+---
+
+### Task 1: Open the notebook in Vertex AI Workbench
+
+1. **Access the Google Cloud Console:**
+   - Open your browser and go to the [Google Cloud Console](https://console.cloud.google.com/).
+
+2. **Navigate to Vertex AI Workbench:**
+   - In the top-left corner, click on the **Navigation menu** (three horizontal lines).
+   - From the dropdown, scroll down and select **Vertex AI**.
+   - Under **Vertex AI**, click on **Workbench**.
+
+3. **Locate Your Workbench Instance:**
+   - In the **Workbench** section, look for the name of the Workbench instance you want to open.
+   
+4. **Open JupyterLab:**
+   - Click on the **Open JupyterLab** button next to your selected Workbench instance.
+   
+5. **Access the JupyterLab Interface:**
+   - The JupyterLab interface for your selected Workbench instance will open in a new browser tab.
+
+---
+
+This concise guide will help anyone referring to your GitHub repo open the notebook in Vertex AI Workbench.
