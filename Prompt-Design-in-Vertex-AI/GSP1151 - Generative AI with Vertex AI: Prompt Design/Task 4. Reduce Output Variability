@@ -1,0 +1,54 @@
+Here’s the step-by-step guide for **Task 4: Reduce Output Variability**:
+
+---
+
+### Task 4: Reduce Output Variability
+
+**Objective:** Learn how to minimize hallucinations and irrelevant responses from Large Language Models (LLMs) by applying system instructions and reframing prompts.
+
+---
+
+#### ✅ Steps to Follow:
+
+1. **Open the Notebook:**
+   - Open the notebook that contains the sections related to **Reducing Output Variability** in your Vertex AI Workbench JupyterLab environment.
+
+---
+
+#### 🔹 Section 1: Using system instructions to guardrail the model from irrelevant responses
+
+- Navigate to the section titled **“Using system instructions to guardrail the model from irrelevant responses.”**
+- Run the code cells provided in this section.
+- This part demonstrates how to set **system-level instructions** (e.g., “You are a travel assistant. Only respond to travel-related queries.”) to prevent the model from producing off-topic answers.
+- Click **Check my progress** to validate the objective.
+
+---
+
+#### 🔹 Section 2: Turn generative tasks into classification tasks to reduce output variability
+
+- Proceed to the section titled **“Turn generative tasks into classification tasks to reduce output variability.”**
+- Run through the examples where open-ended questions (generative tasks) are converted into **choice-based or classification tasks**.
+  - Example: Instead of “What should I pack for a trip to Japan?”, ask “Which of the following should I pack for a trip to Japan? A) Winter coat B) Swimwear C) Business suit”.
+- This technique **reduces the range of possible outputs**, making responses more predictable and safe.
+- Click **Check my progress** to verify this step.
+
+---
+
+#### 🔹 Section 3: Classification tasks reduce output variability
+
+- Navigate to the **“Classification tasks reduces output variability”** section.
+- Run the cells that illustrate how classification formats (yes/no, multiple choice) provide **structured outputs**, minimizing irrelevant or overly creative responses.
+- Click **Check my progress** once completed.
+
+---
+
+✅ **Key Takeaways:**
+
+- ⚙️ Use **system instructions** to define the model’s behavior clearly.
+- 🔄 Reframe **generative tasks** as **classification tasks** to control output scope.
+- 🎯 Classification leads to **consistent, predictable, and safer** responses.
+- 🛡️ These strategies help **guardrail the model** and reduce hallucinations in production use cases like chatbots.
+
+---
+
+This task strengthens prompt reliability and consistency—crucial for building professional LLM-powered applications.
